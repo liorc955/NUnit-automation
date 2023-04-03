@@ -1,0 +1,76 @@
+{
+  "uuid": "f47d59eb-32d5-489c-a0e3-12dab6f509c0-tc-0-1004",
+  "name": "sanity.UITests.TestOne(\"Mr.\",\"L\",\"Tomer\",\"Cohen\",\"Male\",\"english\")",
+  "children": [
+    "7327d18d-9fc5-4554-b412-d8305eedbca7-tr-0-1007"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680511363218,
+      "stop": 1680511363218
+    },
+    {
+      "name": "BeforeTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680511363218,
+      "stop": 1680511363218
+    }
+  ],
+  "afters": [
+    {
+      "name": "afterTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680511363218,
+      "stop": 1680511363218
+    },
+    {
+      "name": "Tear",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680511363218,
+      "stop": 1680511363218
+    }
+  ],
+  "links": [],
+  "start": 1680511362657,
+  "stop": 1680511363220
+}

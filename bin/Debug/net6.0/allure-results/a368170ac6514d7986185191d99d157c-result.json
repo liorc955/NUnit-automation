@@ -1,0 +1,141 @@
+{
+  "uuid": "886449f3-5df5-4561-8d88-b327a6dc2270-tr-0-1001",
+  "historyId": "sanity.APITests.TestOne",
+  "fullName": "sanity.APITests.TestOne",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V2LQLCOS"
+    },
+    {
+      "name": "package",
+      "value": "sanity"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestOne"
+    },
+    {
+      "name": "testClass",
+      "value": "APITests"
+    },
+    {
+      "name": "tag",
+      "value": "API"
+    },
+    {
+      "name": "story",
+      "value": "This test verifies getting the valid data for specific book"
+    },
+    {
+      "name": "suite",
+      "value": "API Web Tests"
+    }
+  ],
+  "links": [],
+  "name": "TestOne",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 3 but was 2. Strings differ at index 0.\r\n  Expected: \"200\"\r\n  But was:  \"OK\"\r\n  -----------^\r\n",
+    "trace": "   at extensions.APIActions.__a$_around_Get_100663356_o(String queryParam) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 24\r\n   at extensions.APIActions.__a$_around_Get_100663356_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Get_100663356_w_0(Object[] )\r\n   at extensions.APIActions.Get(String queryParam) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 20\r\n   at workflows.APIFlows.__a$_around_GetBook_100663348_o(String bookId) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIFlows.cs:line 14\r\n   at workflows.APIFlows.__a$_around_GetBook_100663348_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at workflows.APIFlows.__a$_around_GetBook_100663348_w_0(Object[] )\r\n   at workflows.APIFlows.GetBook(String bookId)\r\n   at sanity.APITests.TestOne() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 16\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestOne",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 3 but was 2. Strings differ at index 0.\r\n  Expected: \"200\"\r\n  But was:  \"OK\"\r\n  -----------^\r\n",
+        "trace": "   at extensions.APIActions.__a$_around_Get_100663356_o(String queryParam) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 24\r\n   at extensions.APIActions.__a$_around_Get_100663356_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Get_100663356_w_0(Object[] )\r\n   at extensions.APIActions.Get(String queryParam) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 20\r\n   at workflows.APIFlows.__a$_around_GetBook_100663348_o(String bookId) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIFlows.cs:line 14\r\n   at workflows.APIFlows.__a$_around_GetBook_100663348_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at workflows.APIFlows.__a$_around_GetBook_100663348_w_0(Object[] )\r\n   at workflows.APIFlows.GetBook(String bookId)\r\n   at sanity.APITests.TestOne() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 16\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Businees Flow: Get Book by ID",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "  Expected string length 3 but was 2. Strings differ at index 0.\r\n  Expected: \"200\"\r\n  But was:  \"OK\"\r\n  -----------^\r\n",
+            "trace": "   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression)\r\n   at extensions.APIActions.__a$_around_Get_100663356_o(String queryParam) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 24\r\n   at extensions.APIActions.__a$_around_Get_100663356_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Get_100663356_w_0(Object[] )\r\n   at extensions.APIActions.Get(String queryParam) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 20\r\n   at workflows.APIFlows.__a$_around_GetBook_100663348_o(String bookId) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIFlows.cs:line 14\r\n   at workflows.APIFlows.__a$_around_GetBook_100663348_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Get Data From Server",
+              "status": "failed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "  Expected string length 3 but was 2. Strings differ at index 0.\r\n  Expected: \"200\"\r\n  But was:  \"OK\"\r\n  -----------^\r\n",
+                "trace": "   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression)\r\n   at extensions.APIActions.__a$_around_Get_100663356_o(String queryParam) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 24\r\n   at extensions.APIActions.__a$_around_Get_100663356_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Get Status Code",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1680344566735,
+                  "stop": 1680344566736
+                }
+              ],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "String",
+                  "value": "/BookStore/v1/Book?ISBN=9781449325862"
+                }
+              ],
+              "start": 1680344565878,
+              "stop": 1680344566769
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "9781449325862"
+            }
+          ],
+          "start": 1680344565878,
+          "stop": 1680344566769
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a08a1a9a7bd34e3fb21a0629435f651a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1680344565875,
+      "stop": 1680344566779
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1680344565875,
+  "stop": 1680344566782
+}

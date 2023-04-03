@@ -1,0 +1,441 @@
+{
+  "uuid": "6c851310-931a-47f9-8d8e-5835b9c7b25d-tr-0-1003",
+  "historyId": "sanity.Tests.TestOne(\"Mr.\",\"L\",\"Tomer\",\"Cohen\",\"Male\",\"english\")",
+  "fullName": "sanity.Tests.TestOne(\"Mr.\",\"L\",\"Tomer\",\"Cohen\",\"Male\",\"english\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V2LQLCOS"
+    },
+    {
+      "name": "package",
+      "value": "sanity"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestOne"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "tag",
+      "value": "Sanity"
+    },
+    {
+      "name": "story",
+      "value": "This test verifies the filling form for differents data"
+    },
+    {
+      "name": "suite",
+      "value": "UI Web Tests"
+    }
+  ],
+  "links": [],
+  "name": "TestOne(\"Mr.\",\"L\",\"Tomer\",\"Cohen\",\"Male\",\"english\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestOne(\"Mr.\",\"L\",\"Tomer\",\"Cohen\",\"Male\",\"english\")"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestOne(\"Mr.\",\"L\",\"Tomer\",\"Cohen\",\"Male\",\"english\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Businees Flow: Login to the site",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "UI Action: Type Text",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "UI Action: Clear Text",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [
+                    {
+                      "name": "WebElement",
+                      "value": "Element (id = df03837a-def5-40df-849c-cefb824e908f)"
+                    }
+                  ],
+                  "start": 1678545366326,
+                  "stop": 1678545366355
+                }
+              ],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "WebElement",
+                  "value": "Element (id = df03837a-def5-40df-849c-cefb824e908f)"
+                },
+                {
+                  "name": "String",
+                  "value": "liorco"
+                }
+              ],
+              "start": 1678545366326,
+              "stop": 1678545366408
+            },
+            {
+              "name": "UI Action: Type Text",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "UI Action: Clear Text",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [
+                    {
+                      "name": "WebElement",
+                      "value": "Element (id = 41adcbc7-d1f0-4219-9f86-450ec4223242)"
+                    }
+                  ],
+                  "start": 1678545366414,
+                  "stop": 1678545366451
+                }
+              ],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "WebElement",
+                  "value": "Element (id = 41adcbc7-d1f0-4219-9f86-450ec4223242)"
+                },
+                {
+                  "name": "String",
+                  "value": "Aa123456!"
+                }
+              ],
+              "start": 1678545366414,
+              "stop": 1678545366571
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "liorco"
+            },
+            {
+              "name": "String",
+              "value": "Aa123456!"
+            }
+          ],
+          "start": 1678545366320,
+          "stop": 1678545366571
+        },
+        {
+          "name": "Businees Flow: Fill The User Deatils Form",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "UI Action: Select drop-down item",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "WebElement",
+                  "value": "Element (id = 3877af4d-f8b2-4092-8917-4fdb95f81edd)"
+                },
+                {
+                  "name": "String",
+                  "value": "Mr."
+                },
+                {
+                  "name": "String",
+                  "value": "title"
+                }
+              ],
+              "start": 1678545366588,
+              "stop": 1678545366605
+            },
+            {
+              "name": "UI Action: Type Text",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "UI Action: Clear Text",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [
+                    {
+                      "name": "WebElement",
+                      "value": "Element (id = 5d9932d5-ee70-4e7b-8679-2943ab894281)"
+                    }
+                  ],
+                  "start": 1678545366612,
+                  "stop": 1678545366643
+                }
+              ],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "WebElement",
+                  "value": "Element (id = 5d9932d5-ee70-4e7b-8679-2943ab894281)"
+                },
+                {
+                  "name": "String",
+                  "value": "L"
+                }
+              ],
+              "start": 1678545366612,
+              "stop": 1678545366675
+            },
+            {
+              "name": "UI Action: Type Text",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "UI Action: Clear Text",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [
+                    {
+                      "name": "WebElement",
+                      "value": "Element (id = 0df90f58-bc46-40b7-97d6-9d02a4bee868)"
+                    }
+                  ],
+                  "start": 1678545366680,
+                  "stop": 1678545366707
+                }
+              ],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "WebElement",
+                  "value": "Element (id = 0df90f58-bc46-40b7-97d6-9d02a4bee868)"
+                },
+                {
+                  "name": "String",
+                  "value": "Tomer"
+                }
+              ],
+              "start": 1678545366680,
+              "stop": 1678545366741
+            },
+            {
+              "name": "UI Action: Type Text",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "UI Action: Clear Text",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [
+                    {
+                      "name": "WebElement",
+                      "value": "Element (id = 4e379489-d673-4ca3-8339-9e76424114dc)"
+                    }
+                  ],
+                  "start": 1678545366747,
+                  "stop": 1678545366773
+                }
+              ],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "WebElement",
+                  "value": "Element (id = 4e379489-d673-4ca3-8339-9e76424114dc)"
+                },
+                {
+                  "name": "String",
+                  "value": "Cohen"
+                }
+              ],
+              "start": 1678545366747,
+              "stop": 1678545366821
+            },
+            {
+              "name": "UI Action: Click on the element",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "WebElement",
+                  "value": "Element (id = adb7f730-3537-4ab9-a79c-674c9d64609b)"
+                }
+              ],
+              "start": 1678545366870,
+              "stop": 1678545366916
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Mr."
+            },
+            {
+              "name": "String",
+              "value": "L"
+            },
+            {
+              "name": "String",
+              "value": "Tomer"
+            },
+            {
+              "name": "String",
+              "value": "Cohen"
+            },
+            {
+              "name": "String",
+              "value": "Male"
+            },
+            {
+              "name": "String",
+              "value": "english"
+            }
+          ],
+          "start": 1678545366572,
+          "stop": 1678545366916
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "dffdb31097ec4bdf82c1a0a9c4096df3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1678545366310,
+      "stop": 1678545366963
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Mr."
+    },
+    {
+      "name": "Param #1",
+      "value": "L"
+    },
+    {
+      "name": "Param #2",
+      "value": "Tomer"
+    },
+    {
+      "name": "Param #3",
+      "value": "Cohen"
+    },
+    {
+      "name": "Param #4",
+      "value": "Male"
+    },
+    {
+      "name": "Param #5",
+      "value": "english"
+    }
+  ],
+  "start": 1678545366310,
+  "stop": 1678545366964
+}

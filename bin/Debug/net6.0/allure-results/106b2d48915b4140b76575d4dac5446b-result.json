@@ -1,0 +1,222 @@
+{
+  "uuid": "55de0263-833d-4553-ae51-db6099d7cd22-tr-0-1001",
+  "historyId": "sanity.APITests.TestOne",
+  "fullName": "sanity.APITests.TestOne",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V2LQLCOS"
+    },
+    {
+      "name": "package",
+      "value": "sanity"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestOne"
+    },
+    {
+      "name": "testClass",
+      "value": "APITests"
+    },
+    {
+      "name": "tag",
+      "value": "API"
+    },
+    {
+      "name": "story",
+      "value": "This test verifies the filling form for differents data"
+    },
+    {
+      "name": "suite",
+      "value": "API Web Tests"
+    }
+  ],
+  "links": [],
+  "name": "TestOne",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at RestSharp.RestRequestExtensions.AddUrlSegment(RestRequest request, String name, String value, Boolean encode)\r\n   at extensions.APIActions.__a$_around_Get_100663350_o(String queryParams) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 15\r\n   at extensions.APIActions.__a$_around_Get_100663350_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Get_100663350_w_0(Object[] )\r\n   at extensions.APIActions.Get(String queryParams) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 14\r\n   at sanity.APITests.TestOne() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 14"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestOne",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at RestSharp.RestRequestExtensions.AddUrlSegment(RestRequest request, String name, String value, Boolean encode)\r\n   at extensions.APIActions.__a$_around_Get_100663350_o(String queryParams) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 15\r\n   at extensions.APIActions.__a$_around_Get_100663350_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Get_100663350_w_0(Object[] )\r\n   at extensions.APIActions.Get(String queryParams) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 14\r\n   at sanity.APITests.TestOne() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 14"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Businees Flow: Login to the site",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "UI Action: Type Text",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "UI Action: Clear Text",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [
+                    {
+                      "name": "WebElement",
+                      "value": "Element (id = 7fccff79-833d-4a2f-a904-796892e5819e)"
+                    }
+                  ],
+                  "start": 1678553592909,
+                  "stop": 1678553592941
+                }
+              ],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "WebElement",
+                  "value": "Element (id = 7fccff79-833d-4a2f-a904-796892e5819e)"
+                },
+                {
+                  "name": "String",
+                  "value": "liorco"
+                }
+              ],
+              "start": 1678553592909,
+              "stop": 1678553592992
+            },
+            {
+              "name": "UI Action: Type Text",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "UI Action: Clear Text",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [
+                    {
+                      "name": "WebElement",
+                      "value": "Element (id = 9348c493-80b7-4934-8302-1b06c70bd70c)"
+                    }
+                  ],
+                  "start": 1678553593005,
+                  "stop": 1678553593036
+                }
+              ],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "WebElement",
+                  "value": "Element (id = 9348c493-80b7-4934-8302-1b06c70bd70c)"
+                },
+                {
+                  "name": "String",
+                  "value": "Aa123456!"
+                }
+              ],
+              "start": 1678553593005,
+              "stop": 1678553593354
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "liorco"
+            },
+            {
+              "name": "String",
+              "value": "Aa123456!"
+            }
+          ],
+          "start": 1678553592885,
+          "stop": 1678553593354
+        },
+        {
+          "name": "Get Data From Server",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Object reference not set to an instance of an object.",
+            "trace": "   at RestSharp.RestRequestExtensions.AddUrlSegment(RestRequest request, String name, String value, Boolean encode)\r\n   at extensions.APIActions.__a$_around_Get_100663350_o(String queryParams) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 15\r\n   at extensions.APIActions.__a$_around_Get_100663350_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "id:9781449325862"
+            }
+          ],
+          "start": 1678553593357,
+          "stop": 1678553593371
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Screenshot for failed test: TestOne",
+          "source": "5176ce532a784cfd825053c2b29241cc-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "797f73a5c74d4d509d5571ca30eaa81d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1678553592882,
+      "stop": 1678553593605
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1678553592882,
+  "stop": 1678553593607
+}

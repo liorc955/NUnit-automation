@@ -1,0 +1,76 @@
+{
+  "uuid": "67a7f690-b21a-47dd-8cff-3e4a582ddb46-tc-0-1000",
+  "name": "sanity.APITests.TestOne",
+  "children": [
+    "c5aa5924-3a48-45ff-9ef5-16f69ccf1fb4-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680350760386,
+      "stop": 1680350760386
+    },
+    {
+      "name": "BeforeTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680350760386,
+      "stop": 1680350760386
+    }
+  ],
+  "afters": [
+    {
+      "name": "afterTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680350760386,
+      "stop": 1680350760386
+    },
+    {
+      "name": "Tear",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680350760386,
+      "stop": 1680350760386
+    }
+  ],
+  "links": [],
+  "start": 1680350758461,
+  "stop": 1680350760402
+}

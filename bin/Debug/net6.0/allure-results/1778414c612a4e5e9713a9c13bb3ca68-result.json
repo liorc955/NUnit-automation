@@ -1,0 +1,102 @@
+{
+  "uuid": "c2f1e562-79d7-4381-b6cf-b291afee31b9-tr-0-1001",
+  "historyId": "sanity.APITests.TestOne",
+  "fullName": "sanity.APITests.TestOne",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V2LQLCOS"
+    },
+    {
+      "name": "package",
+      "value": "sanity"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestOne"
+    },
+    {
+      "name": "testClass",
+      "value": "APITests"
+    },
+    {
+      "name": "tag",
+      "value": "API"
+    },
+    {
+      "name": "story",
+      "value": "This test verifies the filling form for differents data"
+    },
+    {
+      "name": "suite",
+      "value": "API Web Tests"
+    }
+  ],
+  "links": [],
+  "name": "TestOne",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Net.Http.HttpRequestException : Request failed with status code BadRequest",
+    "trace": "   at RestSharp.ResponseThrowExtension.ThrowIfError(RestResponse response)\r\n   at RestSharp.RestClientExtensions.GetAsync(RestClient client, RestRequest request, CancellationToken cancellationToken)\r\n   at RestSharp.AsyncHelpers.<>c__DisplayClass1_0`1.<<RunSync>b__0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at RestSharp.AsyncHelpers.CustomSynchronizationContext.<Run>g__PostCallback|7_0(Object _)\r\n   at RestSharp.AsyncHelpers.CustomSynchronizationContext.Run()\r\n   at RestSharp.AsyncHelpers.RunSync(Func`1 task)\r\n   at RestSharp.AsyncHelpers.RunSync[T](Func`1 task)\r\n   at RestSharp.RestClientSyncExtensions.Get(RestClient client, RestRequest request)\r\n   at extensions.APIActions.__a$_around_Get_100663350_o(String queryParams) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 16\r\n   at extensions.APIActions.__a$_around_Get_100663350_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Get_100663350_w_0(Object[] )\r\n   at extensions.APIActions.Get(String queryParams) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 14\r\n   at sanity.APITests.TestOne() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 14"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestOne",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Net.Http.HttpRequestException : Request failed with status code BadRequest",
+        "trace": "   at RestSharp.ResponseThrowExtension.ThrowIfError(RestResponse response)\r\n   at RestSharp.RestClientExtensions.GetAsync(RestClient client, RestRequest request, CancellationToken cancellationToken)\r\n   at RestSharp.AsyncHelpers.<>c__DisplayClass1_0`1.<<RunSync>b__0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at RestSharp.AsyncHelpers.CustomSynchronizationContext.<Run>g__PostCallback|7_0(Object _)\r\n   at RestSharp.AsyncHelpers.CustomSynchronizationContext.Run()\r\n   at RestSharp.AsyncHelpers.RunSync(Func`1 task)\r\n   at RestSharp.AsyncHelpers.RunSync[T](Func`1 task)\r\n   at RestSharp.RestClientSyncExtensions.Get(RestClient client, RestRequest request)\r\n   at extensions.APIActions.__a$_around_Get_100663350_o(String queryParams) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 16\r\n   at extensions.APIActions.__a$_around_Get_100663350_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Get_100663350_w_0(Object[] )\r\n   at extensions.APIActions.Get(String queryParams) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 14\r\n   at sanity.APITests.TestOne() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 14"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Get Data From Server",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Request failed with status code BadRequest",
+            "trace": "   at RestSharp.ResponseThrowExtension.ThrowIfError(RestResponse response)\r\n   at RestSharp.RestClientExtensions.GetAsync(RestClient client, RestRequest request, CancellationToken cancellationToken)\r\n   at RestSharp.AsyncHelpers.<>c__DisplayClass1_0`1.<<RunSync>b__0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at RestSharp.AsyncHelpers.CustomSynchronizationContext.<Run>g__PostCallback|7_0(Object _)\r\n   at RestSharp.AsyncHelpers.CustomSynchronizationContext.Run()\r\n   at RestSharp.AsyncHelpers.RunSync(Func`1 task)\r\n   at RestSharp.AsyncHelpers.RunSync[T](Func`1 task)\r\n   at RestSharp.RestClientSyncExtensions.Get(RestClient client, RestRequest request)\r\n   at extensions.APIActions.__a$_around_Get_100663350_o(String queryParams) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 16\r\n   at extensions.APIActions.__a$_around_Get_100663350_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "id:9781449325862"
+            }
+          ],
+          "start": 1678554050988,
+          "stop": 1678554051433
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "18f972105ed04589b868022d65643440-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1678554050985,
+      "stop": 1678554051444
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1678554050985,
+  "stop": 1678554051447
+}

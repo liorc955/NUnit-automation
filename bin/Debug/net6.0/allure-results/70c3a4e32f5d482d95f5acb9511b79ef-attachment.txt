@@ -1,0 +1,12 @@
+{userId}
+25c4396b-452b-4f39-ad83-396951d3a9b0
+{isbn}
+9781449325862
+{
+  "userId": "{userId}",
+  "collectionOfIsbns": [
+    {
+      "isbn": "{isbn}"
+    }
+  ]
+}

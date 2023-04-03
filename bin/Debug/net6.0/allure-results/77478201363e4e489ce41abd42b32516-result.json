@@ -1,0 +1,136 @@
+{
+  "uuid": "118b0cbb-e5f0-441b-affa-fb69d58b2c0f-tr-0-1001",
+  "historyId": "sanity.APITests.TestOne",
+  "fullName": "sanity.APITests.TestOne",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V2LQLCOS"
+    },
+    {
+      "name": "package",
+      "value": "sanity"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestOne"
+    },
+    {
+      "name": "testClass",
+      "value": "APITests"
+    },
+    {
+      "name": "tag",
+      "value": "API"
+    },
+    {
+      "name": "story",
+      "value": "This test verifies getting the valid data for specific book"
+    },
+    {
+      "name": "suite",
+      "value": "API Web Tests"
+    }
+  ],
+  "links": [],
+  "name": "TestOne",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected is <System.String>, actual is <Newtonsoft.Json.Linq.JValue>\r\n  Values differ at index [0]\r\n  Missing:  < 'G', ... >",
+    "trace": "   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)\r\n   at sanity.APITests.TestOne() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 18\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestOne",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected is <System.String>, actual is <Newtonsoft.Json.Linq.JValue>\r\n  Values differ at index [0]\r\n  Missing:  < 'G', ... >",
+        "trace": "   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)\r\n   at sanity.APITests.TestOne() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 18\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Businees Flow: Get Book by ID",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Get Data From Server",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "String",
+                  "value": "/BookStore/v1/Book?ISBN=9781449325862"
+                }
+              ],
+              "start": 1680337358560,
+              "stop": 1680337359153
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "9781449325862"
+            }
+          ],
+          "start": 1680337358559,
+          "stop": 1680337359153
+        },
+        {
+          "name": "Get Data From Response",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1680337359153,
+          "stop": 1680337359157
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c890bacff95d4065bca26255f1a915d9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1680337358557,
+      "stop": 1680337359270
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1680337358556,
+  "stop": 1680337359273
+}

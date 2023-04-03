@@ -1,0 +1,78 @@
+{
+  "uuid": "128e499d-e284-465c-aeca-a3518a84c5c4-tc-0-1000",
+  "name": "sanity.UITests.TestOne(\"Mr.\",\"L\",\"Nadav\",\"Cohen\",\"Male\",\"english\")",
+  "children": [
+    "53f28527-674c-4aae-8d55-ac789cca9a88-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1678553249941,
+      "stop": 1678553249941
+    },
+    {
+      "name": "BeforeTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1678553249941,
+      "stop": 1678553249941
+    }
+  ],
+  "afters": [
+    {
+      "name": "afterTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at workflows.WebFlows.__a$_around_FillUserForm_100663304_o(String title, String inital, String firstName, String middleName, String gender, String language) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\WebFlows.cs:line 22\r\n   at workflows.WebFlows.__a$_around_FillUserForm_100663304_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at workflows.WebFlows.__a$_around_FillUserForm_100663304_w_0(Object[] )\r\n   at workflows.WebFlows.FillUserForm(String title, String inital, String firstName, String middleName, String gender, String language) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\WebFlows.cs:line 14\r\n   at sanity.UITests.TestOne(String title, String inital, String firstName, String middleName, String gender, String language) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\UITests.cs:line 17\r\n--TearDown\r\n   at utilities.CommponsOps.afterTest() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\CommonOps.cs:line 90"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1678553249941,
+      "stop": 1678553249941
+    },
+    {
+      "name": "Tear",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at workflows.WebFlows.__a$_around_FillUserForm_100663304_o(String title, String inital, String firstName, String middleName, String gender, String language) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\WebFlows.cs:line 22\r\n   at workflows.WebFlows.__a$_around_FillUserForm_100663304_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at workflows.WebFlows.__a$_around_FillUserForm_100663304_w_0(Object[] )\r\n   at workflows.WebFlows.FillUserForm(String title, String inital, String firstName, String middleName, String gender, String language) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\WebFlows.cs:line 14\r\n   at sanity.UITests.TestOne(String title, String inital, String firstName, String middleName, String gender, String language) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\UITests.cs:line 17\r\n--TearDown\r\n   at utilities.CommponsOps.afterTest() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\CommonOps.cs:line 90"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1678553249942,
+      "stop": 1678553249942
+    }
+  ],
+  "links": [],
+  "start": 1678553249921,
+  "stop": 1678553249965
+}

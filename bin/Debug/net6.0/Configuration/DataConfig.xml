@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Enviroment>
+    <!-- Timeout Config -->
+    <TimeOut>5</TimeOut>
+    <SikuliTimeOut>20</SikuliTimeOut>
+
+    <!-- Authorization Config -->
+    <UserName>liorc</UserName>
+    <Password>Qexz4L8M5!</Password>
+    <platformName>Web</platformName>
+    <browserName>Chrome</browserName>
+
+
+    <!-- Web Config -->
+    <urlWeb>https://demosite.executeautomation.com/Login.html</urlWeb>
+    <ImageRepo>\ImageRepository\</ImageRepo>
+    <ddtPath>./DDTFiles/userDeatils.csv</ddtPath>
+
+    <!-- API Config -->
+    <urlAPI>https://bookstore.toolsqa.com/</urlAPI>
+    <UserId>25c4396b-452b-4f39-ad83-396951d3a9b0</UserId>
+
+    <!-- Database Config -->
+    <dbUrl>jdbc:mysql://remotemysql.com:3306/C1AOmH1Qb3</dbUrl>
+    <dbUsername>C1AOmH1Qb3</dbUsername>
+    <dbPassword>1dj9lOK5Vj</dbPassword>
+</Enviroment>

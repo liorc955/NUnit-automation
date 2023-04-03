@@ -1,0 +1,155 @@
+{
+  "uuid": "83cc91d5-e09f-4a52-ac08-38c31471a807-tr-0-1003",
+  "historyId": "sanity.UITests.TestOne(\"Mr.\",\"L\",\"Nadav\",\"Cohen\",\"Male\",\"english\")",
+  "fullName": "sanity.UITests.TestOne(\"Mr.\",\"L\",\"Nadav\",\"Cohen\",\"Male\",\"english\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V2LQLCOS"
+    },
+    {
+      "name": "package",
+      "value": "sanity"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestOne"
+    },
+    {
+      "name": "testClass",
+      "value": "UITests"
+    },
+    {
+      "name": "tag",
+      "value": "Sanity"
+    },
+    {
+      "name": "story",
+      "value": "This test verifies the filling form for differents data"
+    },
+    {
+      "name": "tag",
+      "value": "Sanity"
+    },
+    {
+      "name": "suite",
+      "value": "UI Web Tests"
+    },
+    {
+      "name": "epic",
+      "value": "Automation Testing web app"
+    }
+  ],
+  "links": [],
+  "name": "TestOne(\"Mr.\",\"L\",\"Nadav\",\"Cohen\",\"Male\",\"english\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at workflows.WebFlows.__a$_around_FillUserForm_100663350_o(String title, String inital, String firstName, String middleName, String gender, String language) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\WebFlows.cs:line 22\r\n   at workflows.WebFlows.__a$_around_FillUserForm_100663350_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at workflows.WebFlows.__a$_around_FillUserForm_100663350_w_0(Object[] )\r\n   at workflows.WebFlows.FillUserForm(String title, String inital, String firstName, String middleName, String gender, String language) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\WebFlows.cs:line 14\r\n   at sanity.UITests.TestOne(String title, String inital, String firstName, String middleName, String gender, String language) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\UITests.cs:line 17"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestOne(\"Mr.\",\"L\",\"Nadav\",\"Cohen\",\"Male\",\"english\")",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at workflows.WebFlows.__a$_around_FillUserForm_100663350_o(String title, String inital, String firstName, String middleName, String gender, String language) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\WebFlows.cs:line 22\r\n   at workflows.WebFlows.__a$_around_FillUserForm_100663350_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at workflows.WebFlows.__a$_around_FillUserForm_100663350_w_0(Object[] )\r\n   at workflows.WebFlows.FillUserForm(String title, String inital, String firstName, String middleName, String gender, String language) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\WebFlows.cs:line 14\r\n   at sanity.UITests.TestOne(String title, String inital, String firstName, String middleName, String gender, String language) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\UITests.cs:line 17"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Businees Flow: Fill The User Deatils Form",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Object reference not set to an instance of an object.",
+            "trace": "   at workflows.WebFlows.__a$_around_FillUserForm_100663350_o(String title, String inital, String firstName, String middleName, String gender, String language) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\WebFlows.cs:line 22\r\n   at workflows.WebFlows.__a$_around_FillUserForm_100663350_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Mr."
+            },
+            {
+              "name": "String",
+              "value": "L"
+            },
+            {
+              "name": "String",
+              "value": "Nadav"
+            },
+            {
+              "name": "String",
+              "value": "Cohen"
+            },
+            {
+              "name": "String",
+              "value": "Male"
+            },
+            {
+              "name": "String",
+              "value": "english"
+            }
+          ],
+          "start": 1680334002009,
+          "stop": 1680334002076
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "46a5a934688c4255a64f9049125ea8bd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1680334001982,
+      "stop": 1680334002099
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Mr."
+    },
+    {
+      "name": "Param #1",
+      "value": "L"
+    },
+    {
+      "name": "Param #2",
+      "value": "Nadav"
+    },
+    {
+      "name": "Param #3",
+      "value": "Cohen"
+    },
+    {
+      "name": "Param #4",
+      "value": "Male"
+    },
+    {
+      "name": "Param #5",
+      "value": "english"
+    }
+  ],
+  "start": 1680334001982,
+  "stop": 1680334002102
+}

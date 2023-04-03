@@ -1,0 +1,78 @@
+{
+  "uuid": "5f59117b-0c15-4803-9d2b-16f156f2b7af-tc-0-1000",
+  "name": "sanity.APITests.TestOne",
+  "children": [
+    "effd032a-9613-4da4-b5f0-0afaeafaa716-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1678553804011,
+      "stop": 1678553804011
+    },
+    {
+      "name": "BeforeTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1678553804011,
+      "stop": 1678553804011
+    }
+  ],
+  "afters": [
+    {
+      "name": "afterTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Net.Http.HttpRequestException : Request failed with status code BadRequest\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at RestSharp.ResponseThrowExtension.ThrowIfError(RestResponse response)\r\n   at RestSharp.RestClientExtensions.GetAsync(RestClient client, RestRequest request, CancellationToken cancellationToken)\r\n   at RestSharp.AsyncHelpers.<>c__DisplayClass1_0`1.<<RunSync>b__0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at RestSharp.AsyncHelpers.CustomSynchronizationContext.<Run>g__PostCallback|7_0(Object _)\r\n   at RestSharp.AsyncHelpers.CustomSynchronizationContext.Run()\r\n   at RestSharp.AsyncHelpers.RunSync(Func`1 task)\r\n   at RestSharp.AsyncHelpers.RunSync[T](Func`1 task)\r\n   at RestSharp.RestClientSyncExtensions.Get(RestClient client, RestRequest request)\r\n   at extensions.APIActions.__a$_around_Get_100663350_o(String queryParams) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 16\r\n   at extensions.APIActions.__a$_around_Get_100663350_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Get_100663350_w_0(Object[] )\r\n   at extensions.APIActions.Get(String queryParams) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 14\r\n   at sanity.APITests.TestOne() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 14\r\n--TearDown\r\n   at utilities.CommponsOps.afterTest() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\CommonOps.cs:line 91"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1678553804011,
+      "stop": 1678553804011
+    },
+    {
+      "name": "Tear",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Net.Http.HttpRequestException : Request failed with status code BadRequest\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at RestSharp.ResponseThrowExtension.ThrowIfError(RestResponse response)\r\n   at RestSharp.RestClientExtensions.GetAsync(RestClient client, RestRequest request, CancellationToken cancellationToken)\r\n   at RestSharp.AsyncHelpers.<>c__DisplayClass1_0`1.<<RunSync>b__0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at RestSharp.AsyncHelpers.CustomSynchronizationContext.<Run>g__PostCallback|7_0(Object _)\r\n   at RestSharp.AsyncHelpers.CustomSynchronizationContext.Run()\r\n   at RestSharp.AsyncHelpers.RunSync(Func`1 task)\r\n   at RestSharp.AsyncHelpers.RunSync[T](Func`1 task)\r\n   at RestSharp.RestClientSyncExtensions.Get(RestClient client, RestRequest request)\r\n   at extensions.APIActions.__a$_around_Get_100663350_o(String queryParams) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 16\r\n   at extensions.APIActions.__a$_around_Get_100663350_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Get_100663350_w_0(Object[] )\r\n   at extensions.APIActions.Get(String queryParams) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 14\r\n   at sanity.APITests.TestOne() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 14\r\n--TearDown\r\n   at utilities.CommponsOps.afterTest() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\CommonOps.cs:line 91"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1678553804011,
+      "stop": 1678553804011
+    }
+  ],
+  "links": [],
+  "start": 1678553803633,
+  "stop": 1678553804036
+}

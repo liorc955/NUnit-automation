@@ -1,0 +1,129 @@
+{
+  "uuid": "1034786e-7508-4f5e-8190-fd4169797655-tr-0-1002",
+  "historyId": "sanity.APITests.TestTwo",
+  "fullName": "sanity.APITests.TestTwo",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V2LQLCOS"
+    },
+    {
+      "name": "package",
+      "value": "sanity"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestTwo"
+    },
+    {
+      "name": "testClass",
+      "value": "APITests"
+    },
+    {
+      "name": "tag",
+      "value": "API"
+    },
+    {
+      "name": "story",
+      "value": "This test verifies getting the valid data for specific book"
+    },
+    {
+      "name": "suite",
+      "value": "API Web Tests"
+    }
+  ],
+  "links": [],
+  "name": "TestTwo",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at RestSharp.RestRequestExtensions.AddHeader(RestRequest request, String name, String value)\r\n   at extensions.APIActions.setRequestHeaders() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 14\r\n   at extensions.APIActions.__a$_around_Post_100663358_o(String queryParam, String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 43\r\n   at extensions.APIActions.__a$_around_Post_100663358_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Post_100663358_w_0(Object[] )\r\n   at extensions.APIActions.Post(String queryParam, String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 22\r\n   at workflows.APIFlows.__a$_around_PostBook_100663349_o(String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIFlows.cs:line 20\r\n   at workflows.APIFlows.__a$_around_PostBook_100663349_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at workflows.APIFlows.__a$_around_PostBook_100663349_w_0(Object[] )\r\n   at workflows.APIFlows.PostBook(String body)\r\n   at sanity.APITests.TestTwo() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 27"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestTwo",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at RestSharp.RestRequestExtensions.AddHeader(RestRequest request, String name, String value)\r\n   at extensions.APIActions.setRequestHeaders() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 14\r\n   at extensions.APIActions.__a$_around_Post_100663358_o(String queryParam, String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 43\r\n   at extensions.APIActions.__a$_around_Post_100663358_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Post_100663358_w_0(Object[] )\r\n   at extensions.APIActions.Post(String queryParam, String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 22\r\n   at workflows.APIFlows.__a$_around_PostBook_100663349_o(String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIFlows.cs:line 20\r\n   at workflows.APIFlows.__a$_around_PostBook_100663349_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at workflows.APIFlows.__a$_around_PostBook_100663349_w_0(Object[] )\r\n   at workflows.APIFlows.PostBook(String body)\r\n   at sanity.APITests.TestTwo() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 27"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Businees Flow: Post Book by userId",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Object reference not set to an instance of an object.",
+            "trace": "   at RestSharp.RestRequestExtensions.AddHeader(RestRequest request, String name, String value)\r\n   at extensions.APIActions.setRequestHeaders() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 14\r\n   at extensions.APIActions.__a$_around_Post_100663358_o(String queryParam, String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 43\r\n   at extensions.APIActions.__a$_around_Post_100663358_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Post_100663358_w_0(Object[] )\r\n   at extensions.APIActions.Post(String queryParam, String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 22\r\n   at workflows.APIFlows.__a$_around_PostBook_100663349_o(String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIFlows.cs:line 20\r\n   at workflows.APIFlows.__a$_around_PostBook_100663349_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Post Data To Server",
+              "status": "failed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "Object reference not set to an instance of an object.",
+                "trace": "   at RestSharp.RestRequestExtensions.AddHeader(RestRequest request, String name, String value)\r\n   at extensions.APIActions.setRequestHeaders() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 14\r\n   at extensions.APIActions.__a$_around_Post_100663358_o(String queryParam, String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 43\r\n   at extensions.APIActions.__a$_around_Post_100663358_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "String",
+                  "value": "/BookStore/v1/Books"
+                },
+                {
+                  "name": "String",
+                  "value": "{\r\n  \"userId\": \"25c4396b-452b-4f39-ad83-396951d3a9b0\",\r\n  \"collectionOfIsbns\": [\r\n    {\r\n      \"isbn\": \"9781449325862\"\r\n    }\r\n  ]\r\n}"
+                }
+              ],
+              "start": 1680342477250,
+              "stop": 1680342477250
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "{\r\n  \"userId\": \"25c4396b-452b-4f39-ad83-396951d3a9b0\",\r\n  \"collectionOfIsbns\": [\r\n    {\r\n      \"isbn\": \"9781449325862\"\r\n    }\r\n  ]\r\n}"
+            }
+          ],
+          "start": 1680342477250,
+          "stop": 1680342477251
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "23accfba7e2045e583053318734e737c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1680342477249,
+      "stop": 1680342477252
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1680342477249,
+  "stop": 1680342477252
+}

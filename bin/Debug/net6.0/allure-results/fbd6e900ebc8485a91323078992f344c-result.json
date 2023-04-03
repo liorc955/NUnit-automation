@@ -1,0 +1,138 @@
+{
+  "uuid": "a5cc660e-6f32-42f0-bd94-2127c7216999-tr-0-1001",
+  "historyId": "sanity.APITests.TestOne",
+  "fullName": "sanity.APITests.TestOne",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V2LQLCOS"
+    },
+    {
+      "name": "package",
+      "value": "sanity"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestOne"
+    },
+    {
+      "name": "testClass",
+      "value": "APITests"
+    },
+    {
+      "name": "tag",
+      "value": "API"
+    },
+    {
+      "name": "story",
+      "value": "This test verifies getting the valid data for specific book"
+    },
+    {
+      "name": "suite",
+      "value": "API Web Tests"
+    }
+  ],
+  "links": [],
+  "name": "TestOne",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentException : Accessed JObject values with invalid key value: 0. Object property name expected.",
+    "trace": "   at Newtonsoft.Json.Linq.JObject.get_Item(Object key)\r\n   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)\r\n   at extensions.APIActions.__a$_around_GetDeserializeResponse_100663355_o() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 36\r\n   at extensions.APIActions.__a$_around_GetDeserializeResponse_100663355_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_GetDeserializeResponse_100663355_w_0(Object[] )\r\n   at extensions.APIActions.GetDeserializeResponse() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 28\r\n   at sanity.APITests.TestOne() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 17"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestOne",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentException : Accessed JObject values with invalid key value: 0. Object property name expected.",
+        "trace": "   at Newtonsoft.Json.Linq.JObject.get_Item(Object key)\r\n   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)\r\n   at extensions.APIActions.__a$_around_GetDeserializeResponse_100663355_o() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 36\r\n   at extensions.APIActions.__a$_around_GetDeserializeResponse_100663355_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_GetDeserializeResponse_100663355_w_0(Object[] )\r\n   at extensions.APIActions.GetDeserializeResponse() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 28\r\n   at sanity.APITests.TestOne() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 17"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Businees Flow: Get Book by ID",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Get Data From Server",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "String",
+                  "value": "/BookStore/v1/Book?ISBN=9781449325862"
+                }
+              ],
+              "start": 1680336686199,
+              "stop": 1680336686815
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "9781449325862"
+            }
+          ],
+          "start": 1680336686198,
+          "stop": 1680336686815
+        },
+        {
+          "name": "Get Data From Response",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Accessed JObject values with invalid key value: 0. Object property name expected.",
+            "trace": "   at Newtonsoft.Json.Linq.JObject.get_Item(Object key)\r\n   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)\r\n   at extensions.APIActions.__a$_around_GetDeserializeResponse_100663355_o() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 36\r\n   at extensions.APIActions.__a$_around_GetDeserializeResponse_100663355_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1680336686815,
+          "stop": 1680336686913
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "aeb8c3975cab4350873a42bbc0222c85-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1680336686135,
+      "stop": 1680336686926
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1680336686134,
+  "stop": 1680336686929
+}

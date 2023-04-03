@@ -1,0 +1,144 @@
+{
+  "uuid": "3495f3b9-d0b0-45dd-885c-6b9867da7df0-tr-0-1003",
+  "historyId": "sanity.APITests.TestThree",
+  "fullName": "sanity.APITests.TestThree",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V2LQLCOS"
+    },
+    {
+      "name": "package",
+      "value": "sanity"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestThree"
+    },
+    {
+      "name": "testClass",
+      "value": "APITests"
+    },
+    {
+      "name": "tag",
+      "value": "API"
+    },
+    {
+      "name": "story",
+      "value": "This test verifies update of exsiting book to a user"
+    },
+    {
+      "name": "suite",
+      "value": "API Web Tests"
+    }
+  ],
+  "links": [],
+  "name": "TestThree",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+    "trace": "   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)\r\n   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)\r\n   at sanity.APITests.TestThree() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 43"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestThree",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+        "trace": "   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)\r\n   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)\r\n   at sanity.APITests.TestThree() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 43"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Businees Flow: Update Existing book of a user",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Put Data To Server",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "String",
+                  "value": "BookStore/v1/Books/9781449325862"
+                },
+                {
+                  "name": "String",
+                  "value": "{\r\n  \"userId\": \"25c4396b-452b-4f39-ad83-396951d3a9b0\",\r\n  \"isbn\": \"9781491950296\"\r\n}"
+                }
+              ],
+              "start": 1680353702811,
+              "stop": 1680353702946
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "9781449325862"
+            },
+            {
+              "name": "String",
+              "value": "9781491950296"
+            }
+          ],
+          "start": 1680353702804,
+          "stop": 1680353702946
+        },
+        {
+          "name": "Get Data From Response",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1680353702946,
+          "stop": 1680353702947
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8a5e86ee6582430c9a8e4268d88d6b18-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1680353702803,
+      "stop": 1680353702986
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1680353702803,
+  "stop": 1680353702986
+}

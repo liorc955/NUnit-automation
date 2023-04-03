@@ -1,0 +1,143 @@
+{
+  "uuid": "15894194-5430-431a-9642-ea1a22b7e3fd-tr-0-1001",
+  "historyId": "sanity.APITests.TestOne",
+  "fullName": "sanity.APITests.TestOne",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V2LQLCOS"
+    },
+    {
+      "name": "package",
+      "value": "sanity"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestOne"
+    },
+    {
+      "name": "testClass",
+      "value": "APITests"
+    },
+    {
+      "name": "tag",
+      "value": "API"
+    },
+    {
+      "name": "story",
+      "value": "This test verifies getting the valid data for specific book"
+    },
+    {
+      "name": "suite",
+      "value": "API Web Tests"
+    }
+  ],
+  "links": [],
+  "name": "TestOne",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.FormatException : Input string was not in a correct format.",
+    "trace": "   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)\r\n   at System.Int32.Parse(String s)\r\n   at extensions.APIActions.__a$_around_GetStatusCode_100663357_o() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 30\r\n   at extensions.APIActions.__a$_around_GetStatusCode_100663357_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_GetStatusCode_100663357_w_0(Object[] )\r\n   at extensions.APIActions.GetStatusCode() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 20\r\n   at extensions.APIActions.__a$_around_Get_100663356_o(String queryParam) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 24\r\n   at extensions.APIActions.__a$_around_Get_100663356_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Get_100663356_w_0(Object[] )\r\n   at extensions.APIActions.Get(String queryParam) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 20\r\n   at workflows.APIFlows.__a$_around_GetBook_100663348_o(String bookId) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIFlows.cs:line 14\r\n   at workflows.APIFlows.__a$_around_GetBook_100663348_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at workflows.APIFlows.__a$_around_GetBook_100663348_w_0(Object[] )\r\n   at workflows.APIFlows.GetBook(String bookId)\r\n   at sanity.APITests.TestOne() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 16"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestOne",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.FormatException : Input string was not in a correct format.",
+        "trace": "   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)\r\n   at System.Int32.Parse(String s)\r\n   at extensions.APIActions.__a$_around_GetStatusCode_100663357_o() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 30\r\n   at extensions.APIActions.__a$_around_GetStatusCode_100663357_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_GetStatusCode_100663357_w_0(Object[] )\r\n   at extensions.APIActions.GetStatusCode() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 20\r\n   at extensions.APIActions.__a$_around_Get_100663356_o(String queryParam) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 24\r\n   at extensions.APIActions.__a$_around_Get_100663356_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Get_100663356_w_0(Object[] )\r\n   at extensions.APIActions.Get(String queryParam) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 20\r\n   at workflows.APIFlows.__a$_around_GetBook_100663348_o(String bookId) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIFlows.cs:line 14\r\n   at workflows.APIFlows.__a$_around_GetBook_100663348_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at workflows.APIFlows.__a$_around_GetBook_100663348_w_0(Object[] )\r\n   at workflows.APIFlows.GetBook(String bookId)\r\n   at sanity.APITests.TestOne() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 16"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Businees Flow: Get Book by ID",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Input string was not in a correct format.",
+            "trace": "   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)\r\n   at System.Int32.Parse(String s)\r\n   at extensions.APIActions.__a$_around_GetStatusCode_100663357_o() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 30\r\n   at extensions.APIActions.__a$_around_GetStatusCode_100663357_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_GetStatusCode_100663357_w_0(Object[] )\r\n   at extensions.APIActions.GetStatusCode() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 20\r\n   at extensions.APIActions.__a$_around_Get_100663356_o(String queryParam) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 24\r\n   at extensions.APIActions.__a$_around_Get_100663356_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Get_100663356_w_0(Object[] )\r\n   at extensions.APIActions.Get(String queryParam) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 20\r\n   at workflows.APIFlows.__a$_around_GetBook_100663348_o(String bookId) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIFlows.cs:line 14\r\n   at workflows.APIFlows.__a$_around_GetBook_100663348_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Get Data From Server",
+              "status": "failed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "Input string was not in a correct format.",
+                "trace": "   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)\r\n   at System.Int32.Parse(String s)\r\n   at extensions.APIActions.__a$_around_GetStatusCode_100663357_o() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 30\r\n   at extensions.APIActions.__a$_around_GetStatusCode_100663357_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_GetStatusCode_100663357_w_0(Object[] )\r\n   at extensions.APIActions.GetStatusCode() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 20\r\n   at extensions.APIActions.__a$_around_Get_100663356_o(String queryParam) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 24\r\n   at extensions.APIActions.__a$_around_Get_100663356_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Get Status Code",
+                  "status": "failed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false,
+                    "message": "Input string was not in a correct format.",
+                    "trace": "   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)\r\n   at System.Int32.Parse(String s)\r\n   at extensions.APIActions.__a$_around_GetStatusCode_100663357_o() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 30\r\n   at extensions.APIActions.__a$_around_GetStatusCode_100663357_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1680344411863,
+                  "stop": 1680344411880
+                }
+              ],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "String",
+                  "value": "/BookStore/v1/Book?ISBN=9781449325862"
+                }
+              ],
+              "start": 1680344410205,
+              "stop": 1680344411880
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "9781449325862"
+            }
+          ],
+          "start": 1680344410204,
+          "stop": 1680344411881
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b8794962f6c74584858d4c083cda2813-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1680344410201,
+      "stop": 1680344411892
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1680344410201,
+  "stop": 1680344411894
+}

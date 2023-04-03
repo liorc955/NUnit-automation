@@ -1,0 +1,129 @@
+{
+  "uuid": "0ea36ad5-8ca1-4e47-a2be-782dbb14452a-tr-0-1002",
+  "historyId": "sanity.APITests.TestTwo",
+  "fullName": "sanity.APITests.TestTwo",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V2LQLCOS"
+    },
+    {
+      "name": "package",
+      "value": "sanity"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestTwo"
+    },
+    {
+      "name": "testClass",
+      "value": "APITests"
+    },
+    {
+      "name": "tag",
+      "value": "API"
+    },
+    {
+      "name": "story",
+      "value": "This test verifies post new book to a userId"
+    },
+    {
+      "name": "suite",
+      "value": "API Web Tests"
+    }
+  ],
+  "links": [],
+  "name": "TestTwo",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at extensions.APIActions.__a$_around_Post_100663360_o(String queryParam, String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 48\r\n   at extensions.APIActions.__a$_around_Post_100663360_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Post_100663360_w_0(Object[] )\r\n   at extensions.APIActions.Post(String queryParam, String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 64\r\n   at workflows.APIFlows.__a$_around_PostBook_100663350_o(String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIFlows.cs:line 20\r\n   at workflows.APIFlows.__a$_around_PostBook_100663350_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at workflows.APIFlows.__a$_around_PostBook_100663350_w_0(Object[] )\r\n   at workflows.APIFlows.PostBook(String body)\r\n   at sanity.APITests.TestTwo() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 32\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestTwo",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at extensions.APIActions.__a$_around_Post_100663360_o(String queryParam, String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 48\r\n   at extensions.APIActions.__a$_around_Post_100663360_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Post_100663360_w_0(Object[] )\r\n   at extensions.APIActions.Post(String queryParam, String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 64\r\n   at workflows.APIFlows.__a$_around_PostBook_100663350_o(String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIFlows.cs:line 20\r\n   at workflows.APIFlows.__a$_around_PostBook_100663350_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at workflows.APIFlows.__a$_around_PostBook_100663350_w_0(Object[] )\r\n   at workflows.APIFlows.PostBook(String body)\r\n   at sanity.APITests.TestTwo() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 32\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Businees Flow: Post Book to a userId",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "  Expected: True\r\n  But was:  False\r\n",
+            "trace": "   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.True(Boolean condition)\r\n   at extensions.APIActions.__a$_around_Post_100663360_o(String queryParam, String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 48\r\n   at extensions.APIActions.__a$_around_Post_100663360_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at extensions.APIActions.__a$_around_Post_100663360_w_0(Object[] )\r\n   at extensions.APIActions.Post(String queryParam, String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 64\r\n   at workflows.APIFlows.__a$_around_PostBook_100663350_o(String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIFlows.cs:line 20\r\n   at workflows.APIFlows.__a$_around_PostBook_100663350_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Post Data To Server",
+              "status": "failed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "  Expected: True\r\n  But was:  False\r\n",
+                "trace": "   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.True(Boolean condition)\r\n   at extensions.APIActions.__a$_around_Post_100663360_o(String queryParam, String body) in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APIActions.cs:line 48\r\n   at extensions.APIActions.__a$_around_Post_100663360_u(Object[] )\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "String",
+                  "value": "/BookStore/v1/Books"
+                },
+                {
+                  "name": "String",
+                  "value": "{\r\n  \"userId\": \"{userId}\",\r\n  \"collectionOfIsbns\": [\r\n    {\r\n      \"isbn\": \"{isbn}\"\r\n    }\r\n  ]\r\n}"
+                }
+              ],
+              "start": 1680350760410,
+              "stop": 1680350760542
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "{\r\n  \"userId\": \"{userId}\",\r\n  \"collectionOfIsbns\": [\r\n    {\r\n      \"isbn\": \"{isbn}\"\r\n    }\r\n  ]\r\n}"
+            }
+          ],
+          "start": 1680350760410,
+          "stop": 1680350760542
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0ed73a6d42ef40699ea9b78b0baca442-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1680350760408,
+      "stop": 1680350760544
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1680350760408,
+  "stop": 1680350760545
+}

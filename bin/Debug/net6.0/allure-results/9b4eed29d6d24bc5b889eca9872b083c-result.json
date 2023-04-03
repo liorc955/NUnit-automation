@@ -1,0 +1,140 @@
+{
+  "uuid": "11b69f75-0280-4a55-9121-45131ebbebf2-tr-0-1002",
+  "historyId": "sanity.APITests.TestTwo",
+  "fullName": "sanity.APITests.TestTwo",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-V2LQLCOS"
+    },
+    {
+      "name": "package",
+      "value": "sanity"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestTwo"
+    },
+    {
+      "name": "testClass",
+      "value": "APITests"
+    },
+    {
+      "name": "tag",
+      "value": "API"
+    },
+    {
+      "name": "story",
+      "value": "This test verifies post new book to a userId"
+    },
+    {
+      "name": "suite",
+      "value": "API Web Tests"
+    }
+  ],
+  "links": [],
+  "name": "TestTwo",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : Cannot perform runtime binding on a null reference",
+    "trace": "   at CallSite.Target(Closure , CallSite , Object , Int32 )\r\n   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)\r\n   at sanity.APITests.TestTwo() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 30"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestTwo",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : Cannot perform runtime binding on a null reference",
+        "trace": "   at CallSite.Target(Closure , CallSite , Object , Int32 )\r\n   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)\r\n   at sanity.APITests.TestTwo() in C:\\Users\\liorc\\source\\repos\\SeleniumTestProject\\SeleniumTestProject\\APITests.cs:line 30"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Businees Flow: Post Book to a userId",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Post Data To Server",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "String",
+                  "value": "/BookStore/v1/Books"
+                },
+                {
+                  "name": "String",
+                  "value": "{\r\n  \"userId\": \"25c4396b-452b-4f39-ad83-396951d3a9b0\",\r\n  \"collectionOfIsbns\": [\r\n    {\r\n      \"isbn\": \"9781449325862\"\r\n    }\r\n  ]\r\n}"
+                }
+              ],
+              "start": 1680343854785,
+              "stop": 1680343854886
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "{\r\n  \"userId\": \"25c4396b-452b-4f39-ad83-396951d3a9b0\",\r\n  \"collectionOfIsbns\": [\r\n    {\r\n      \"isbn\": \"9781449325862\"\r\n    }\r\n  ]\r\n}"
+            }
+          ],
+          "start": 1680343854785,
+          "stop": 1680343854886
+        },
+        {
+          "name": "Get Data From Response",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1680343854886,
+          "stop": 1680343854886
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3350bf1a805b41beafcf314c6c01c72a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1680343854784,
+      "stop": 1680343854916
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1680343854784,
+  "stop": 1680343854916
+}
