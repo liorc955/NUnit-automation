@@ -1,5 +1,5 @@
 
-# Python Automation - nopCommerce Website & API Testing
+# C# Automation - UI & API Testing
 
 In this project, I built a test automation framework for UI and API tests in C# using RestSharp, Selenium, and NUnit.
 
