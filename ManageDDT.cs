@@ -20,12 +20,12 @@ namespace utilities
             return nodes[0].InnerText;
         }
 
-        private static IList<UserDetails> readCsv(string csvPath) {
-            List<UserDetails> records;
+        private static IList<T> readCsv<T>(string csvPath) {
+            List<T> records;
             using (var reader = new StreamReader(csvPath))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
-                 records = csv.GetRecords<UserDetails>().ToList();
+                 records = csv.GetRecords<T>().ToList();
             }
             return records;
         }
@@ -33,7 +33,7 @@ namespace utilities
 
         public static IEnumerable<TestCaseData> AddTestDataConfig() {
 
-            foreach (UserDetails user in readCsv(GetDataFromXMLConfig("ddtPath")))
+            foreach (UserDetails user in readCsv<UserDetails>(GetDataFromXMLConfig("ddtPath")))
                 yield return new TestCaseData(user.Title, user.Initial, user.FirstName, user.MiddleName, user.Gender, user.Language);
         }
 
